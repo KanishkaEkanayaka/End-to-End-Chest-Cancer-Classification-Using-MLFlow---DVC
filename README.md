@@ -44,3 +44,9 @@ Then execute the following commands
 
 dvc init # initialize dvc
 dvc repro # to run dvc.yaml file
+dvc dag # to see the pipeline visually on cmd
+
+```
+
+After figuring out the best model parameters then train the model with those parameters.
+then store that finally trained model in another folder outside the artifacts folder because we are not pushing artifacts folder into the github
